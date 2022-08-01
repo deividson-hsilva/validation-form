@@ -1,0 +1,72 @@
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 50px;
+    background: url(../images/bg-repeat.jpg) repeat-x;
+    background-size: contain;
+}
+
+.text {
+    width: 300px;
+    color: #fff;
+    margin-right: 72.5px;
+}
+
+.text .title {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 11px;
+}
+
+.text .paragrafo {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.formulario {
+    display: flex;
+    max-width: 340px;
+    max-height: 378px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.formulario input {
+    width: 300px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.formulario #user-question {
+    min-height: 100px;
+    margin-bottom: 7px;
+    line-height: 100px;
+}
+
+.formulario #user-question::placeholder {
+    
+}
+
+.formulario label {
+    font-weight: 400;
+}
+
+.formulario #submit-btn {
+    background-color: #3CCC87;
+    color: #ffffff;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.formulario input::placeholder {
+    color: #A8A8A8;
+}
+
+.mb {
+    margin-bottom: 15px;
+}
