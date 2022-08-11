@@ -42,7 +42,7 @@ Neste projeto eu coloco em prática meus conhecimentos de HTML/CSS/JavaScript, d
 
 ### Links
 
-- `Live Site URL: []`
+- `Live Site URL: [https://deividson-hsilva.github.io/validation-form/]`
 
 
 ### Built with
