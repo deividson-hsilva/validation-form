@@ -8,6 +8,7 @@
     <title>Quest HTML/CSS/JS</title>
     <link rel="stylesheet" href="src/css/reset.css">
     <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
@@ -22,20 +23,32 @@
         </div>
 
         <div class="formulario">
-            <form action="index.html">
-                <input type="text" name="nome" id="user-name" placeholder="Nome Completo*" class="mb">
-                <input type="email" name="email" id="user-email" placeholder="Email*" class="mb">
-                <input type="tel" name="telefone" id="user-tel" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4}"
-                    placeholder="Telefone*" class="mb">
-                <input type="text" name="mensagem" id="user-question" placeholder="Mensagem*">
-                <label>*campos obrigatórios</label>
-                <input type="submit" placeholder="Enviar" name="enviar" id="submit-btn">
+            <form action="index.html" method="get" class="form-container">
+
+                <input type="text" name="nome" placeholder="Nome Completo*" value="" id="text-input"
+                    class="user-name campos">
+                <div class="validation-message">campo obrigatório</div>
+
+                <input type="email" name="email" placeholder="Email*" value="" id="email-input"
+                    class="user-email campos">
+                <div class="validation-message">campo obrigatório</div>
+
+                <input type="tel" name="telefone" pattern="\([0-9]{2}\)[\s][0-9]{4}-[0-9]{4}" placeholder="Telefone*"
+                    value="" id="tel-input" class="user-tel campos">
+                <div class="validation-message">campo obrigatório</div>
+
+                <textarea name="mensagem" placeholder="Mensagem*" id="textarea" value=""
+                    class="user-question campos"></textarea>
+                <label class="validation-message">campo obrigatório</label>
+
+                <p>*campos obrigatórios</p>
+                <input type="button" value="Enviar" id="submit-btn">
             </form>
         </div>
     </main>
 
 
-    <script src="js/validacao.js"></script>
+    <script type="text/javascript" src="js/validacao.js"></script>
 </body>
 
 </html>

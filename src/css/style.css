@@ -28,30 +28,35 @@ main {
 .formulario {
     display: flex;
     max-width: 340px;
-    max-height: 378px;
+    height: 380px;
     background-color: #ffffff;
     padding: 20px;
+    border-radius: 5px;
+}
+
+.form-container .user-name {
+    margin-top: 0 !important;
 }
 
 .formulario input {
     width: 300px;
     height: 35px;
-    font-size: 15px;
-    font-weight: 700;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-top: 15px;
 }
 
-.formulario #user-question {
-    min-height: 100px;
-    margin-bottom: 7px;
-    line-height: 100px;
+.formulario .user-question {
+    height: 100px;
+    width: 300px;
+    resize: none;
+    border-radius: 5px;
+    margin-top: 15px;
 }
 
-.formulario #user-question::placeholder {
-    
-}
-
-.formulario label {
+.formulario p {
     font-weight: 400;
+    margin-top: 7px;
 }
 
 .formulario #submit-btn {
@@ -60,13 +65,26 @@ main {
     margin-top: 20px;
     border-radius: 5px;
     border: none;
+    height: 40px;
 
 }
 
-.formulario input::placeholder {
+::placeholder {
     color: #A8A8A8;
+    font-size: 15px;
+    font-weight: 700;
 }
 
-.mb {
-    margin-bottom: 15px;
+.validation-message{
+    font-size: 8px;
+    color: #F52E2E;
+    display: none;
+}
+
+label.validation-message {
+    margin-top: -5px;
+}
+
+.mostrar {
+    display: block;
 }

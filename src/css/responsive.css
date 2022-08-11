@@ -1,0 +1,13 @@
+@media(max-width: 560px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    .text {
+        margin: 72.5px 0px;
+        text-align: center;
+    }
+}
