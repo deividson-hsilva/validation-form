@@ -5,7 +5,7 @@
   - [O projeto](#o-projeto)
   - [Screenshot](#esses-sao-os-estados-do-formulario)
   - [Links](#links)
-  - [Built with](#built-with)
+  - [Tecnologias utilizadas](#tecnologias-utilizadas)
 
   <br>
   <br>
@@ -45,7 +45,7 @@ Neste projeto eu coloco em prática meus conhecimentos de HTML/CSS/JavaScript, d
 - Live Site URL: [https://deividson-hsilva.github.io/validation-form/]
 
 
-### Built with
+### Tecnologias utilizadas
 
 - `HTML5` 
 - `CSS` 
