@@ -34,7 +34,7 @@ Neste projeto eu coloco em prática meus conhecimentos de HTML/CSS/JavaScript, d
 
 <br>
 
-`Estado válidado`
+`Estado validado`
 
 <img src="src/images/estado-validado.png" alt="estado válidado">
 
